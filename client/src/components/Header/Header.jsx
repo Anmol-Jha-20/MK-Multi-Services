@@ -88,7 +88,7 @@ const Header = () => {
           <div className="flex flex-col sm:flex-row items-center space-y-1 sm:space-y-0 sm:space-x-6">
             <div className="flex items-center space-x-2">
               <Phone size={14} />
-              <span>Phone : +91 87072 70153</span>
+              <span>Phone : +91 87078 70153</span>
             </div>
             <div className="flex items-center space-x-2">
               <Mail size={14} />
@@ -265,7 +265,7 @@ const Header = () => {
             {/* Right Side Icons */}
             <div className="flex items-center space-x-4">
               <button
-                onClick={() => (window.location.href = "tel:918707270153")}
+                onClick={() => (window.location.href = "tel:918707870153")}
                 className="bg-yellow-400 hover:bg-yellow-500 text-white cursor-pointer px-6 py-2 rounded-md font-medium transition-colors hidden sm:block"
               >
                 Get Consultation
@@ -386,7 +386,7 @@ const Header = () => {
                   </div>
                 </div> */}
                 <button
-                  onClick={() => (window.location.href = "tel:918707270153")}
+                  onClick={() => (window.location.href = "tel:918707870153")}
                   className="w-full bg-yellow-400 hover:bg-yellow-500 text-white py-3 rounded-md font-medium transition-colors"
                 >
                   Get Consultation

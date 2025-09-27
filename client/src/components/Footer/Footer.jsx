@@ -37,7 +37,7 @@ const Footer = () => {
             Looking for Reliable Construction and Designing Services?
           </h2>
           <button
-            onClick={() => (window.location.href = "tel:918707270153")}
+            onClick={() => (window.location.href = "tel:918707870153")}
             className="bg-blue-900 hover:bg-blue-800 cursor-pointer text-white px-8 py-3 rounded-md font-semibold transition-colors duration-300 whitespace-nowrap"
           >
             Make Appointment
@@ -128,7 +128,7 @@ const Footer = () => {
               <button
                 onClick={() =>
                   window.open(
-                    "https://wa.me/918707270153?text=Hey!%20I%20am%20interested%20in%20your%20services.",
+                    "https://wa.me/918707870153?text=Hey!%20I%20am%20interested%20in%20your%20services.",
                     "_blank"
                   )
                 }
@@ -140,7 +140,7 @@ const Footer = () => {
             </div>
             <div className="fixed bottom-6 right-0 z-9999">
               <button
-                onClick={() => (window.location.href = "tel:+918707270153")}
+                onClick={() => (window.location.href = "tel:+918707870153")}
                 className="bg-orange-400 cursor-pointer text-white p-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 animate-bounce"
                 aria-label="Need Help?"
               >
@@ -246,14 +246,14 @@ const Footer = () => {
                         href="tel:+918707270153"
                         className="text-gray-300 hover:text-yellow-400 transition-colors duration-300 text-sm"
                       >
-                        +(91) 87072 70153
+                        +(91) 87078 70153
                       </a>{" "}
                       <br />
                       <a
-                        href="tel:+916081413428"
+                        href="tel:+918081413428"
                         className="text-gray-300 hover:text-yellow-400 transition-colors duration-300 text-sm"
                       >
-                        +(91) 60814 13428
+                        +(91) 80814 13428
                       </a>
                     </div>
                   </div>
