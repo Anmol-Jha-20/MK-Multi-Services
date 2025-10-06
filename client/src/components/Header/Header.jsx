@@ -32,13 +32,13 @@ const Header = () => {
       "Help & FAQ'S",
     ],
     Projects: [
-      { name: "Construction Service", link: "/rcc-wall" },
-      { name: "Manpower Service", link: "/rcc-pole" },
-      { name: "Flooring Services", link: "/compound-wall" },
-      { name: "Building Contractors", link: "/rcc-bench" },
-      { name: "Painting Services", link: "/boundary-wall" },
-      { name: "Designing Service", link: "/rcc-garden-bench" },
-      { name: "Installation Service", link: "/garden-bench" },
+      { name: "Construction Service", link: "/construction-service" },
+      { name: "Manpower Service", link: "/manpower-service" },
+      { name: "Flooring Services", link: "/flooring-services" },
+      { name: "Building Contractors", link: "/building-contractors" },
+      { name: "Painting Services", link: "/painting-services" },
+      { name: "Designing Service", link: "/designing-service" },
+      { name: "Installation Service", link: "/installation-service" },
     ],
   };
 
