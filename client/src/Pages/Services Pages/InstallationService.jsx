@@ -3,87 +3,31 @@ import { motion } from "framer-motion";
 // import { Helmet } from "react-helmet-async";
 import HeroBannerImage from "../../assets/HeroImages/HeroBannerImage.png";
 
-const PaintingServices = () => {
+const InstallationServices = () => {
   const services = [
     {
       id: 1,
-      name: "Wooden Painting Services",
+      name: "Floor Tiles Installation Services",
       description:
-        "Wooden Painting Services specialize in painting and polishing wooden surfaces such as doors, windows, furniture, and panels. These services enhance the appearance, durability, and protection of wood using quality paints, stains, or varnishes.",
+        "Floor Tiles Installation Services provide professional installation of various types of floor tiles, including ceramic, porcelain, marble, and more. These services ensure precise alignment, proper grouting, and long-lasting finishes, transforming floors into durable, stylish surfaces for homes and commercial spaces.",
       image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/444634788/FF/MI/QE/107162981/wooden-painting-services-500x500.jpg",
+        "https://5.imimg.com/data5/ANDROID/Default/2024/8/443620228/OJ/KD/GR/107162981/product-jpeg-500x500.jpg",
     },
     {
       id: 2,
-      name: "Interior Wall Paint Services",
+      name: "Textured Wallpaper Installation Services",
       description:
-        "Interior wall paint services offer professional painting for residential and commercial spaces, enhancing the aesthetic appeal of rooms. These services typically include surface preparation (cleaning, sanding, patching holes), priming, and applying high-quality paint finishes.",
+        "Textured Wallpaper Installation Services specialize in the application of textured wallpapers that add depth and visual interest to walls. These services ensure smooth, precise installation of various textured patterns, enhancing the aesthetic appeal of any room while providing a durable and stylish finish.",
       image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/444638726/SZ/SQ/XD/107162981/interior-wall-paint-services-500x500.jpeg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/443665957/AQ/SK/QG/107162981/textured-wallpaper-installation-services-500x500.jpg",
     },
     {
       id: 3,
-      name: "Exterior Wall Painting Services",
+      name: "Printed Wallpaper Installation Services",
       description:
         "Exterior Wall Painting Services provide professional painting solutions for the outer surfaces of buildings, enhancing appearance and protecting walls from weather damage. These services use durable, weather-resistant paints and skilled techniques.",
       image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/444639204/UU/ZG/LA/107162981/wall-painting-services-500x500.jpg",
-    },
-    {
-      id: 4,
-      name: "Profacil Smooth Exterior Painting Service",
-      description:
-        "Profacil Smooth Exterior Painting Service offers a high-quality, smooth finish for exterior walls using premium Profacil paints. This service ensures weather resistance, durability, and an elegant look that enhances the building's curb appeal.",
-      image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/444636534/YA/MN/KI/107162981/profacil-smooth-exterior-painting-service-500x500.jpg",
-    },
-    {
-      id: 5,
-      name: "Acrylic Wall Painting Services",
-      description:
-        "Acrylic wall painting services involve the application of high-quality acrylic paints to walls, creating vibrant, durable, and long-lasting finishes. Acrylic paint is known for its quick drying time, excellent coverage, and resistance to fading, making it ideal for both residential and commercial spaces. ",
-      image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/443666248/PG/AT/YF/107162981/glossy-acrylic-wall-painting-services-500x500.jpg",
-    },
-    {
-      id: 6,
-      name: "Building Painting Contractor Services",
-      description:
-        "Building Painting Contractor Services provide comprehensive painting solutions for residential, commercial, and industrial buildings. These services cover both interior and exterior painting, using quality materials and skilled labor to ensure a clean, durable, and professional finish.",
-      image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/443678715/NC/TN/US/107162981/building-painting-contractor-services-500x500.jpg",
-    },
-    {
-      id: 7,
-      name: "Textured Wall Painting Services",
-      description:
-        "Textured Wall Painting Services offer decorative wall finishes using special techniques and materials to create patterns and textures. These services add depth, character, and a unique visual appeal to interior and exterior walls. Ideal for enhancing modern and stylish spaces.",
-      image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/443679613/WL/CW/ZI/107162981/textured-wall-painting-services-500x500.jpg",
-    },
-    {
-      id: 8,
-      name: "Residential Building Painting Service",
-      description:
-        "Residential Building Painting Service provides interior and exterior painting solutions tailored for homes and apartments. Using high-quality paints and skilled painters, the service ensures a clean, durable, and visually appealing finish. It enhances the beauty and protection of residential spaces.",
-      image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/444637952/HK/WT/NS/107162981/residential-building-painting-service-500x500.jpg",
-    },
-    {
-      id: 9,
-      name: "Commercial Painting Service",
-      description:
-        "Commercial Painting Service offers professional interior and exterior painting for offices, shops, malls, and other commercial spaces. These services focus on durability, clean finishes, and brand-aligned aesthetics. Timely execution ensures minimal disruption to business operations.",
-      image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/443678321/KJ/RI/FQ/107162981/commercial-painting-service-500x500.jpg",
-    },
-    {
-      id: 10,
-      name: "Home Paint Services",
-      description:
-        "Home Paint Services provide complete interior and exterior painting solutions for houses, using high-quality paints and expert techniques. These services enhance the look, feel, and protection of your home. Custom color options and smooth finishes ensure a fresh and personalized touch.",
-      image:
-        "https://5.imimg.com/data5/ANDROID/Default/2024/8/443621833/VM/PL/UN/107162981/product-jpeg-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/443676948/II/AV/CK/107162981/wallpaper-installation-services-500x500.jpg",
     },
   ];
 
@@ -205,7 +149,7 @@ const PaintingServices = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <span className="bg-gradient-to-r from-[#1C398E] via-[#F0B100] to-orange-500 bg-clip-text text-transparent">
-                Our Painting Services
+                Our Installation Service
               </span>
             </motion.h1>
             <motion.p
@@ -214,11 +158,9 @@ const PaintingServices = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Prominent & Leading Service Provider from Lucknow, we offer Wooden
-              Painting Services, Interior Wall Paint Services, Exterior Wall
-              Painting Services, Profacil Smooth Exterior Painting Service,
-              Acrylic Wall Painting Services and Building Painting Contractor
-              Services.
+              Our service range includes a wide range of Floor Tiles
+              Installation Services, Textured Wallpaper Installation Services
+              and Printed Wallpaper Installation Services.
             </motion.p>
           </motion.div>
 
@@ -379,4 +321,4 @@ const PaintingServices = () => {
   );
 };
 
-export default PaintingServices;
+export default InstallationServices;

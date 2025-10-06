@@ -12,6 +12,8 @@ import ManpowerConstructionServices from "./Pages/Services Pages/ManpowerService
 import FlooringConstructionServices from "./Pages/Services Pages/FlooringService.jsx";
 import BuildingContractorsServices from "./Pages/Services Pages/BuildingContractors.jsx";
 import PaintingServices from "./Pages/Services Pages/PaintingServices.jsx";
+import DesigningServices from "./Pages/Services Pages/DesigningService.jsx";
+import InstallationServices from "./Pages/Services Pages/InstallationService.jsx";
 
 const router = createBrowserRouter([
   {
@@ -53,6 +55,14 @@ const router = createBrowserRouter([
       {
         path: "/painting-services",
         element: <PaintingServices />,
+      },
+      {
+        path: "/designing-service",
+        element: <DesigningServices />,
+      },
+      {
+        path: "/installation-service",
+        element: <InstallationServices />,
       },
     ],
   },

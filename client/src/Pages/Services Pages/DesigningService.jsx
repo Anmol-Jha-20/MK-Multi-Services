@@ -3,87 +3,87 @@ import { motion } from "framer-motion";
 // import { Helmet } from "react-helmet-async";
 import HeroBannerImage from "../../assets/HeroImages/HeroBannerImage.png";
 
-const PaintingServices = () => {
+const DesigningServices = () => {
   const services = [
     {
       id: 1,
-      name: "Wooden Painting Services",
+      name: "Wooden Commercial Interior Designer Services",
       description:
-        "Wooden Painting Services specialize in painting and polishing wooden surfaces such as doors, windows, furniture, and panels. These services enhance the appearance, durability, and protection of wood using quality paints, stains, or varnishes.",
+        "Wooden Commercial Interior Designer Services specialize in designing and crafting elegant wooden interiors for offices, retail spaces, and other commercial environments. These services focus on functionality, aesthetics, and brand identity using custom wooden elements like furniture, paneling, and fixtures.",
       image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/444634788/FF/MI/QE/107162981/wooden-painting-services-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/444633978/GO/SM/VF/107162981/wooden-commercial-interior-designer-services-500x500.jpg",
     },
     {
       id: 2,
-      name: "Interior Wall Paint Services",
+      name: "Flat Interior Designer Services",
       description:
-        "Interior wall paint services offer professional painting for residential and commercial spaces, enhancing the aesthetic appeal of rooms. These services typically include surface preparation (cleaning, sanding, patching holes), priming, and applying high-quality paint finishes.",
+        "Flat Interior Designer Services offer customized design solutions to enhance the functionality and aesthetics of residential flats. These services include space planning, furniture layout, color coordination, and decor selection. The goal is to create stylish, comfortable, and efficient living spaces that reflect the homeowner's lifestyle.",
       image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/444638726/SZ/SQ/XD/107162981/interior-wall-paint-services-500x500.jpeg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/444630199/NG/PP/KC/107162981/interior-designer-services-500x500.jpg",
     },
     {
       id: 3,
-      name: "Exterior Wall Painting Services",
+      name: "Lab Designing Services",
       description:
-        "Exterior Wall Painting Services provide professional painting solutions for the outer surfaces of buildings, enhancing appearance and protecting walls from weather damage. These services use durable, weather-resistant paints and skilled techniques.",
+        "Lab Designing Services provide specialized planning and design solutions for laboratories in educational, medical, and industrial settings. These services focus on safety, functionality, workflow efficiency, and compliance with industry standards. The result is a well-organized, high-performance lab environment tailored to specific needs.",
       image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/444639204/UU/ZG/LA/107162981/wall-painting-services-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/444627825/AQ/BB/NT/107162981/lab-designing-services-500x500.jpg",
     },
     {
       id: 4,
-      name: "Profacil Smooth Exterior Painting Service",
+      name: "Office Interior Design Services",
       description:
-        "Profacil Smooth Exterior Painting Service offers a high-quality, smooth finish for exterior walls using premium Profacil paints. This service ensures weather resistance, durability, and an elegant look that enhances the building's curb appeal.",
+        "Office Interior Design Services offer tailored design solutions to create functional, modern, and visually appealing workspaces. These services include space planning, furniture selection, lighting design, and branding elements. The goal is to enhance productivity, comfort, and professional aesthetics in the workplace.",
       image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/444636534/YA/MN/KI/107162981/profacil-smooth-exterior-painting-service-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/444729265/DA/ST/MA/107162981/office-interior-design-services-500x500.jpeg",
     },
     {
       id: 5,
-      name: "Acrylic Wall Painting Services",
+      name: "Modern Wooden Kitchens Interior Services",
       description:
-        "Acrylic wall painting services involve the application of high-quality acrylic paints to walls, creating vibrant, durable, and long-lasting finishes. Acrylic paint is known for its quick drying time, excellent coverage, and resistance to fading, making it ideal for both residential and commercial spaces. ",
+        "Modern Wooden Kitchens Interior Services specialize in designing and installing stylish, functional kitchen spaces using high-quality wooden finishes. These services combine modern layouts with durable materials to create warm, elegant, and efficient cooking areas. Custom cabinetry and smart storage solutions enhance both beauty and usability.",
       image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/443666248/PG/AT/YF/107162981/glossy-acrylic-wall-painting-services-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/443672057/TD/WU/VH/107162981/modern-wooden-kitchens-interior-services-500x500.jpg",
     },
     {
       id: 6,
-      name: "Building Painting Contractor Services",
+      name: "PVC Kitchen Interior Designing Services",
       description:
-        "Building Painting Contractor Services provide comprehensive painting solutions for residential, commercial, and industrial buildings. These services cover both interior and exterior painting, using quality materials and skilled labor to ensure a clean, durable, and professional finish.",
+        "PVC Kitchen Interior Designing Services offer durable, water-resistant, and low-maintenance kitchen designs using high-quality PVC materials. These services provide customized layouts, modular units, and stylish finishes to create functional and modern cooking spaces. Ideal for long-lasting and budget-friendly kitchen solutions.",
       image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/443678715/NC/TN/US/107162981/building-painting-contractor-services-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/443671176/NB/KD/PR/107162981/traditional-pvc-kitchens-interior-services-500x500.jpg",
     },
     {
       id: 7,
-      name: "Textured Wall Painting Services",
+      name: "Living Room Interior Designing Service",
       description:
-        "Textured Wall Painting Services offer decorative wall finishes using special techniques and materials to create patterns and textures. These services add depth, character, and a unique visual appeal to interior and exterior walls. Ideal for enhancing modern and stylish spaces.",
+        "Living Room Interior Designing Service offers personalized design solutions to create comfortable, stylish, and functional living spaces. These services include furniture selection, color schemes, lighting design, and layout optimization, ensuring a cozy and aesthetically pleasing environment tailored to your lifestyle.",
       image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/443679613/WL/CW/ZI/107162981/textured-wall-painting-services-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/444631360/HS/DL/OO/107162981/living-room-interior-services-500x500.jpg",
     },
     {
       id: 8,
-      name: "Residential Building Painting Service",
+      name: "Wardrobe Designing Service",
       description:
-        "Residential Building Painting Service provides interior and exterior painting solutions tailored for homes and apartments. Using high-quality paints and skilled painters, the service ensures a clean, durable, and visually appealing finish. It enhances the beauty and protection of residential spaces.",
+        "Wardrobe Designing Service provides customized wardrobe solutions to maximize storage space while enhancing the aesthetic of your room. These services include designing built-in or standalone wardrobes with smart organization features, using high-quality materials for a functional and stylish storage solution.",
       image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/444637952/HK/WT/NS/107162981/residential-building-painting-service-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/444630964/EU/ZH/EK/107162981/bedroom-wardrobes-interiors-design-services-500x500.jpg",
     },
     {
       id: 9,
-      name: "Commercial Painting Service",
+      name: "Wooden L Shape Kitchen Interior Designing Services",
       description:
-        "Commercial Painting Service offers professional interior and exterior painting for offices, shops, malls, and other commercial spaces. These services focus on durability, clean finishes, and brand-aligned aesthetics. Timely execution ensures minimal disruption to business operations.",
+        "Wooden L-Shape Kitchen Interior Designing Services specialize in creating efficient, stylish kitchen layouts with an L-shaped configuration using high-quality wood finishes. These services focus on maximizing counter space, optimizing storage, and ensuring a seamless flow, combining functionality with elegant wooden designs.",
       image:
-        "https://5.imimg.com/data5/SELLER/Default/2024/8/443678321/KJ/RI/FQ/107162981/commercial-painting-service-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/443667392/QQ/AT/MM/107162981/wooden-l-shape-kitchen-interior-designing-services-500x500.jpg",
     },
     {
       id: 10,
-      name: "Home Paint Services",
+      name: "3D Wallpaper Designing Services",
       description:
-        "Home Paint Services provide complete interior and exterior painting solutions for houses, using high-quality paints and expert techniques. These services enhance the look, feel, and protection of your home. Custom color options and smooth finishes ensure a fresh and personalized touch.",
+        "3D Wallpaper Designing Services offer innovative and visually striking wallpaper solutions that add depth and texture to any room. These services provide custom designs with a variety of patterns, colors, and effects, transforming walls into dynamic focal points and enhancing the overall ambiance of your space.",
       image:
-        "https://5.imimg.com/data5/ANDROID/Default/2024/8/443621833/VM/PL/UN/107162981/product-jpeg-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/443666962/SC/FB/HI/107162981/3d-wallpaper-designing-services-500x500.jpg",
     },
   ];
 
@@ -205,7 +205,7 @@ const PaintingServices = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <span className="bg-gradient-to-r from-[#1C398E] via-[#F0B100] to-orange-500 bg-clip-text text-transparent">
-                Our Painting Services
+                Our Designing Service
               </span>
             </motion.h1>
             <motion.p
@@ -214,11 +214,11 @@ const PaintingServices = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Prominent & Leading Service Provider from Lucknow, we offer Wooden
-              Painting Services, Interior Wall Paint Services, Exterior Wall
-              Painting Services, Profacil Smooth Exterior Painting Service,
-              Acrylic Wall Painting Services and Building Painting Contractor
-              Services.
+              Providing you the best range of Wooden Commercial Interior
+              Designer Services, Flat Interior Designer Services, Lab Designing
+              Services, Office Interior Design Services, Modern Wooden Kitchens
+              Interior Services and PVC Kitchen Interior Designing Services with
+              effective & timely delivery.
             </motion.p>
           </motion.div>
 
@@ -379,4 +379,4 @@ const PaintingServices = () => {
   );
 };
 
-export default PaintingServices;
+export default DesigningServices;
