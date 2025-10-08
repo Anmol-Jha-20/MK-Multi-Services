@@ -465,38 +465,86 @@ const ConstructionServices = () => {
       image:
         "https://5.imimg.com/data5/SELLER/Default/2024/8/444688960/DN/WM/HO/107162981/mall-construction-services-500x500.jpg",
     },
-    // {
-    //   id: 16,
-    //   name: "Construction Management Services",
-    //   description:
-    //     "Construction Management Services involve overseeing and coordinating all aspects of a construction project from start to finish. These services include project planning, budgeting, scheduling, contractor selection, quality control, risk management, and ensuring compliance with safety and building codes.",
-    //   image:
-    //     "https://5.imimg.com/data5/ANDROID/Default/2024/8/443618422/PI/SN/AL/107162981/product-jpeg-500x500.jpg",
-    // },
-    // {
-    //   id: 17,
-    //   name: "Flat Construction Services",
-    //   description:
-    //     "Flat Construction Services cover the design and building of residential flats or apartments, including land assessment, utility installations, interior finishing, and code compliance.",
-    //   image:
-    //     "https://5.imimg.com/data5/WHATSAPP/Default/2024/8/443060960/UX/GJ/ED/107162981/residential-flat-construction-services-500x500.jpeg",
-    // },
-    // {
-    //   id: 18,
-    //   name: "Toll Plaza Construction Services",
-    //   description:
-    //     "Toll Plaza Construction Services involve the design, development, and installation of toll collection systems along highways and expressways. These services include civil works, booth construction, electrical systems, and integration of automated tolling technology to ensure smooth traffic flow and efficient revenue collection.",
-    //   image:
-    //     "https://5.imimg.com/data5/SELLER/Default/2024/8/443658789/PE/RC/UP/107162981/toll-plaza-construction-services-500x500.jpg",
-    // },
-    // {
-    //   id: 19,
-    //   name: "Commercial Building Construction Services",
-    //   description:
-    //     "Commercial Building Construction Services focus on the planning, design, and construction of commercial properties such as offices, retail stores, and warehouses. These services ensure durable, functional, and code-compliant buildings tailored to business operations and growth.",
-    //   image:
-    //     "https://5.imimg.com/data5/ANDROID/Default/2024/8/443611549/BH/WO/NZ/107162981/product-jpeg-500x500.jpg",
-    // },
+    {
+      id: 16,
+      name: "Construction Management Services",
+      description:
+        "Construction Management Services involve overseeing and coordinating all aspects of a construction project from start to finish. These services include project planning, budgeting, scheduling, contractor selection, quality control, risk management, and ensuring compliance with safety and building codes.",
+      image:
+        "https://5.imimg.com/data5/ANDROID/Default/2024/8/443618422/PI/SN/AL/107162981/product-jpeg-500x500.jpg",
+    },
+    {
+      id: 17,
+      name: "Flat Construction Services",
+      description:
+        "Flat construction services involve the planning, design, and building of residential apartment units. This includes structural work, electrical and plumbing systems, interior finishing, and compliance with building codes. The focus is on delivering safe, functional, and comfortable living spaces.",
+      image:
+        "https://5.imimg.com/data5/WHATSAPP/Default/2024/8/443060960/UX/GJ/ED/107162981/residential-flat-construction-services-500x500.jpeg",
+    },
+    {
+      id: 18,
+      name: "Toll Plaza Construction Services",
+      description:
+        "Toll Plaza Construction Services involve the design, development, and installation of toll collection systems along highways and expressways. These services include civil works, booth construction, electrical systems, and integration of automated tolling technology to ensure smooth traffic flow and efficient revenue collection.",
+      image:
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/443658789/PE/RC/UP/107162981/toll-plaza-construction-services-500x500.jpg",
+    },
+    {
+      id: 19,
+      name: "Commercial Building Construction Services",
+      description:
+        "Commercial Building Construction Services focus on the planning, design, and construction of commercial properties such as offices, retail stores, and warehouses. These services ensure durable, functional, and code-compliant buildings tailored to business operations and growth.",
+      image:
+        "https://5.imimg.com/data5/ANDROID/Default/2024/8/443611549/BH/WO/NZ/107162981/product-jpeg-500x500.jpg",
+    },
+    {
+      id: 20,
+      name: "Hospital Construction Services",
+      description:
+        "Hospital construction services focus on designing and building healthcare facilities that meet safety, regulatory, and operational requirements. This includes site preparation, structural construction, and integration of medical systems like HVAC and medical gas lines.",
+      image:
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/443657739/IQ/BC/LN/107162981/hospital-construction-services-500x500.jpg",
+    },
+    {
+      id: 21,
+      name: "Badminton Court Construction Services",
+      description:
+        "Badminton court construction services design and build courts that meet official play standards. This includes site preparation, flooring installation, proper lighting, and net systems. The goal is to create a safe, durable, and performance-optimized court for players.",
+      image:
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/443657332/JO/TD/YS/107162981/badminton-court-construction-services-500x500.jpg",
+    },
+    {
+      id: 22,
+      name: "Hotel Construction Services",
+      description:
+        "Hotel construction services involve designing and building hospitality spaces that balance comfort, functionality, and aesthetic appeal. This includes structural work, interior design, plumbing, electrical systems, and amenities installation. The goal is to create a welcoming and efficient environment for guests and staff.",
+      image:
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/444688974/VE/MX/MH/107162981/hospital-construction-services-500x500.jpg",
+    },
+    {
+      id: 23,
+      name: "Factory Construction Services",
+      description:
+        "Factory construction services involve designing and building industrial facilities tailored for manufacturing and production processes. This includes structural development, utility installations, ventilation systems, and compliance with industrial safety standards. The aim is to create efficient, durable, and safe work environments.",
+      image:
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/443661461/DT/GL/AU/107162981/factory-construction-services-500x500.jpg",
+    },
+    {
+      id: 24,
+      name: "School Construction Services",
+      description:
+        "School construction services involve the design and building of educational facilities that support learning, safety, and functionality. This includes classrooms, administrative areas, sanitation, electrical systems, and playgrounds. The goal is to create a conducive and secure environment for students and staff.",
+      image:
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/443662726/EK/KG/QZ/107162981/school-construction-services-500x500.jpg",
+    },
+    {
+      id: 25,
+      name: "Construction Consulting Services",
+      description:
+        "Construction consulting services provide expert guidance throughout the planning, design, and building phases of a project. This includes cost estimation, project management, risk assessment, and quality control. The aim is to ensure efficient, compliant, and successful project execution.",
+      image:
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/444617579/EY/VO/PW/107162981/construction-consulting-services-500x500.jpeg",
+    },
   ];
 
   const containerVariants = {
@@ -633,11 +681,11 @@ const ConstructionServices = () => {
 
           {/* Services Grid */}
           <motion.div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.2 }}
+            viewport={{ once: true, amount: 0.1 }}
           >
             {services.map((service, index) => (
               <motion.article
