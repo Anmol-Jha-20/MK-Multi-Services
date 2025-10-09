@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 // import { Helmet } from "react-helmet-async";
 import HeroBannerImage from "../../assets/HeroImages/HeroBannerImage.png";
 import CompoundWallImage from "../../assets/HeroImages/CompoundWall.png";
+import BuildingContractorsImage from "../../assets/ServiceHeroSection/BuildingContractors.png";
 
 const BuildingContractorsServices = () => {
   const services = [
@@ -95,7 +96,7 @@ const BuildingContractorsServices = () => {
       <section className="relative w-full h-[70vh] md:h-[80vh] flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <img
-          src={HeroBannerImage}
+          src={BuildingContractorsImage}
           alt="Construction Background"
           className="absolute w-full h-full object-cover"
         />

@@ -8,7 +8,7 @@ import {
   Calculator,
   Forklift,
 } from "lucide-react";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const ServicesSection = () => {
   const services = [
@@ -22,7 +22,7 @@ const ServicesSection = () => {
       iconColor: "text-orange-500",
       image:
         "https://5.imimg.com/data5/ANDROID/Default/2024/8/443620881/OH/GR/QA/107162981/product-jpeg-500x500.jpg",
-      link: "/rcc-wall",
+      link: "/construction-service",
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ const ServicesSection = () => {
       iconColor: "text-blue-500",
       image:
         "https://5.imimg.com/data5/ANDROID/Default/2024/8/443622172/XC/IA/SO/107162981/product-jpeg-500x500.jpg",
-      link: "/rcc-pole",
+      link: "/manpower-service",
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ const ServicesSection = () => {
       iconColor: "text-gray-600",
       image:
         "https://5.imimg.com/data5/SELLER/Default/2024/8/443673787/RS/UL/TQ/107162981/paver-block-flooring-services-500x500.jpg",
-      link: "/compound-wall",
+      link: "/flooring-services",
     },
     {
       id: 4,
@@ -58,7 +58,7 @@ const ServicesSection = () => {
       iconColor: "text-orange-500",
       image:
         "https://5.imimg.com/data5/ANDROID/Default/2024/8/443622535/NZ/HW/DV/107162981/product-jpeg-500x500.jpg",
-      link: "/rcc-bench",
+      link: "/building-contractors",
     },
     {
       id: 5,
@@ -70,7 +70,7 @@ const ServicesSection = () => {
       iconColor: "text-blue-500",
       image:
         "https://5.imimg.com/data5/SELLER/Default/2024/8/444638726/SZ/SQ/XD/107162981/interior-wall-paint-services-500x500.jpeg",
-      link: "/boundary-wall",
+      link: "/painting-services",
     },
     {
       id: 6,
@@ -82,7 +82,7 @@ const ServicesSection = () => {
       iconColor: "text-gray-600",
       image:
         "https://5.imimg.com/data5/SELLER/Default/2024/8/444633975/LH/SU/ID/107162981/wooden-commercial-interior-designer-services-500x500.jpg",
-      link: "/rcc-garden-bench",
+      link: "/designing-service",
     },
     {
       id: 7,
@@ -94,7 +94,7 @@ const ServicesSection = () => {
       iconColor: "text-gray-600",
       image:
         "https://5.imimg.com/data5/ANDROID/Default/2024/8/443620228/OJ/KD/GR/107162981/product-jpeg-500x500.jpg",
-      link: "/rcc-garden-bench",
+      link: "/installation-service",
     },
   ];
 
@@ -136,7 +136,7 @@ const ServicesSection = () => {
     },
   };
 
-  //   const navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <section

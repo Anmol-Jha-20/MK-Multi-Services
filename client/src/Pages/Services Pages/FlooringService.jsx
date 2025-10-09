@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { motion } from "framer-motion";
 // import { Helmet } from "react-helmet-async";
 import HeroBannerImage from "../../assets/HeroImages/HeroBannerImage.png";
+import FlooringImage from "../../assets/ServiceHeroSection/FlooringImage.png";
 
 const FlooringConstructionServices = () => {
   const services = [
@@ -142,12 +143,12 @@ const FlooringConstructionServices = () => {
       <section className="relative w-full h-[70vh] md:h-[80vh] flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <img
-          src={HeroBannerImage}
+          src={FlooringImage}
           alt="Construction Background"
           className="absolute w-full h-full object-cover"
         />
         {/* Overlay */}
-        <div className="absolute w-full h-full bg-black opacity-30"></div>
+        <div className="absolute w-full h-full bg-black opacity-25"></div>
 
         {/* Content */}
         <motion.div

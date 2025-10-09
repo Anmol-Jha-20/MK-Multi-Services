@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import CompoundWallImage from "../../assets/HeroImages/CompoundWall.png";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const AboutSection = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [scrollY, setScrollY] = useState(0);
-  //   const navigate = useNavigate();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -81,7 +81,10 @@ const AboutSection = () => {
               }`}
             >
               <button
-                onClick={() => navigate("/about-us")}
+                onClick={() => {
+                  navigate("/about-us");
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
                 className="bg-yellow-400 hover:bg-yellow-500 cursor-pointer text-white font-semibold px-8 py-4 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
               >
                 More About Us

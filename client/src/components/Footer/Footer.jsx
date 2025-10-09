@@ -290,8 +290,8 @@ const Footer = () => {
           <div className="border-t border-blue-800 mt-12 pt-8">
             <div className="text-center">
               <p className="text-gray-400 text-sm">
-                © Copyright 2025 M K Multi Services - All Rights Reserved.
-                Designed by{" "}
+                © Copyright {new Date().getFullYear()} M K Multi Services - All
+                Rights Reserved. Designed by{" "}
                 <a href="https://webvortexsolutions.com/" target="_blank">
                   <b>webvortexsolutions.com</b>
                 </a>
